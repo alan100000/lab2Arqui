@@ -1,0 +1,7 @@
+<?
+require('
+function index(){
+	
+}
+
+?>
