@@ -1,1 +1,10 @@
 Proyecto académico para implementar Restful Routing utilizando PHP orientado a objetos
+
+	Para el correcto funcionamiento es necesario:
+	modificar lor archivos de configuración del servidor Apache 
+	crear la base de datos, incluida en el archivo bd.sql
+	
+	Realizado por:
+	Rafael Garcia G.
+	Humberto Garza
+	Alan Gandarilla
