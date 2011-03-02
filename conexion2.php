@@ -12,6 +12,7 @@ class Conexion {
 		$this->usuario = $u;
 		$this->clave = $p;
 		$this->con = mysql_connect($this->servidor, $this->usuario, $this->clave);
+		mysql_select_db ("arqui_lab");
 	}
 
 	function cerrar_conexion(){
