@@ -7,3 +7,8 @@ CREATE TABLE `usuario` (
   `nombre` varchar(30) NOT NULL,
   PRIMARY KEY (`id_usuario`)
 );
+
+INSERT INTO usuario (nombre) VALUES ('Rafael');
+INSERT INTO usuario (nombre) VALUES ('Alan');
+INSERT INTO usuario (nombre) VALUES ('Guayon');
+INSERT INTO usuario (nombre) VALUES ('Efimerido');
