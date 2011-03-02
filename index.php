@@ -1,12 +1,11 @@
-<?
-require('conexion2.php');
-$conexion = new Conexion('localhost', 'root', 'admin');
+<html>
+	<head>
+		<title>Laboratorio</title>
+	</head>
 
-echo 'Indice de prueba =(';
+	<body>
+		<h1>BIENVENIDO!</h1>
+		<a href="usuarios">Index de Usuarios</a>
+	</body>
 
-$resultado = $conexion->consulta('SELECT * FROM usuario');
-
-while ($articulo = mysql_fetch_array($resultado) ) {
-	echo ''.$articulo['nombre'] . "\n";
-}
-?>
+</html>
